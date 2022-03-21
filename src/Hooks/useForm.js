@@ -39,3 +39,5 @@ const useForm = (type) => {
     onBlur: () => validate(value),
   };
 };
+
+export default useForm;
